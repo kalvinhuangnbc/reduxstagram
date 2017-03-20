@@ -1,7 +1,7 @@
 // increment
 export function increment(index) {
   return {
-    type: 'INCREMENT_LINKES',
+    type: 'INCREMENT_LIKES',
     index
   }
 }

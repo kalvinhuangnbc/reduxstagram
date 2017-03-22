@@ -19,7 +19,7 @@ describe('components', () => {
       console.log("Hello World");
       console.log(mainStatusProps);
       var main = TestUtils.renderIntoDocument(
-        <Main />
+        <Main stuff={}/>
       );
 
       expect(main).toExist();
